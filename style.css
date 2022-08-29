@@ -1,0 +1,181 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  outline: 0px;
+  font-family: "Orbitron", sans-serif;
+}
+
+.container{
+  position: relative;
+  margin-left: 120px;
+  margin-right: 120px;
+  padding-top: 50px;
+  height: 100%;
+}
+
+/* NAVBAR BEGINS */
+
+.navbar-container{
+  height: 55px;
+  width: 100%;
+  position: relative;
+}
+
+img[alt="brand-logo"]{
+  float: left;
+  width: 160px;
+  margin-right: 280px;
+}
+
+ul{
+  display: inline;
+}
+
+
+
+
+.list{
+  position: absolute;
+  bottom: 0px;
+  display: inline;
+}
+
+.list li {
+  display: inline;
+  font-size: 28px;
+  margin: 30px;
+  font-weight: 500;
+}
+
+.button-group{
+  display: inline;
+  float:right;
+  height: 55px;
+  width:300px;
+  
+}
+
+.search-icon{
+  position:absolute;
+  bottom: 3px;
+  display: inline;
+  float: left;
+  padding-right: 10px;
+}
+
+.nav-button{
+  position:absolute;
+  top: 3px;
+  right: 75px;
+  display: inline;
+  background-color: transparent;
+  border: 3px solid #000000;
+  border-radius: 15px;
+  color: #6B6B6B;
+  font-size: 20px;
+  font-family: sans-serif;
+  height: 50px;
+  width: 180px;
+  padding: auto;
+}
+
+
+/* NAVBAR ENDS */
+
+
+/* HERO SECTION BEGINNS */
+
+.hero-container{
+  position: relative;
+
+}
+.square{
+  position:absolute;
+  left: 210px;
+  bottom: -75px;
+  z-index: -1;
+}
+
+.star{
+  top: 150px;
+  right: 80px;
+  position:absolute;
+}
+.globe{
+  top: 80px;
+  left: 900px;
+  position:absolute;
+}
+
+
+img[alt="person-hero-iamge"]{
+  margin-top: 80px;
+  height: 90%;
+}
+
+.hero-container-right{
+  position: absolute;
+  top:250px;
+  right: 0px;
+  width: 1100px;
+}
+
+.hero-heading{
+  position: relative;
+  font-size: 75px;
+  text-align: right;
+}
+.hero-description{
+  color: #838383;
+  font-family: sans-serif;
+  font-size: 18px;
+  height: 100px;
+  padding-top: 50px;
+  padding-left: 220px;
+  padding-right: 220px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.button-email{
+  display: inline;
+  background-color: transparent;
+  border: 3px solid #000000;
+  border-radius: 15px;
+  color: #6B6B6B;
+  font-size: 25px;
+  font-weight: 500;
+  height: 45px;
+  width: 250px;
+  padding: auto;
+  margin-left: 350px;
+}
+
+.button-join{
+  display: inline;
+  background-color: #000000;
+  border: 3px solid #000000;
+  border-radius: 15px;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 500;
+  height: 45px;
+  width: 180px;
+  padding: auto;
+  margin-left: 20px;
+}
+
+.contact-heading{
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: #6B6B6B;
+  margin-left: 550px;
+  margin-top: 100px;
+}
+.icons{
+  margin-top: 20px;
+  margin-left: 520px;
+}
+
+/* HERO SECTION ENDS */
